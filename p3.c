@@ -5,7 +5,7 @@
 int main()
 {
 	printf("\nName - Dikshant Joshi \nSection – A");
-    printf("\nStudent id - 20011891\n\n");
+        printf("\nStudent id - 20011891\n\n");
     
 	int pid=fork();
 	
