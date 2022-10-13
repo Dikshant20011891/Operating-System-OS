@@ -7,7 +7,7 @@ struct fcfs{
 
 int cmp(const void *a , const void *b)
 {
-	int arg1 = ((const struct fcfs *)a)->at;
+    int arg1 = ((const struct fcfs *)a)->at;
     int arg2 = ((const struct fcfs *)b)->bt;
  
     if (arg1 < arg2) return -1;
