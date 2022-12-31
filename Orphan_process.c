@@ -12,11 +12,14 @@ int main()
 	if (pid>0)
 	{
  		printf("Parent Call\n");
+		printf("PID = %d\n,getpid());
 	}
 	else
  	{
    		sleep(10);
    		printf("Child Call");
+		printf("PID = %d\n,getpid());
+		printf("Parent PID = %d\n,getppid());
  	}
  	return 0;
 }
